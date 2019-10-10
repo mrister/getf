@@ -1,0 +1,20 @@
+{
+  "name": "getf",
+  "version": "1.0.0",
+  "description": "Like lodash get but with fallback(s) in path",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "get",
+    "getf",
+    "path",
+    "location",
+    "lodash",
+    "get",
+    "fallback"
+  ],
+  "author": "Mihovil Rister mihovil.rister@gmail.com",
+  "license": "ISC"
+}
