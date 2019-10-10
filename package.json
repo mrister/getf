@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Like lodash get but with fallback(s) in path",
   "main": "index.js",
+  "repository": "https://github.com/mrister/getf",
   "scripts": {
-    "test": "test"
+    "test": "mocha test.js --exit"
   },
   "keywords": [
     "get",
@@ -16,5 +17,15 @@
     "fallback"
   ],
   "author": "Mihovil Rister mihovil.rister@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "peerDependencies": {
+    "lodash.get": "^4.4.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.1"
+  },
+  "dependencies": {
+    "lodash.get": "^4.4.2"
+  }
 }
